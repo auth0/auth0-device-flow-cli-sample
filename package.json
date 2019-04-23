@@ -1,0 +1,22 @@
+{
+  "name": "auth0_device_flow_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filip Skokan <filip.skokan@auth0.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=v8.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "got": "^9.6.0",
+    "open": "^6.2.0",
+    "openid-client": "^2.4.5",
+    "prompts": "^2.0.4"
+  }
+}
