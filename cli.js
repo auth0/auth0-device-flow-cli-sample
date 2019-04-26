@@ -27,6 +27,12 @@ const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     form: true,
     body: { client_id: client.client_id, scope: response.scope, audience: response.audience },
   }));
+  
+  if (interval) {
+    interval = interval * 1000;
+  } else {
+    interval = 5000;
+  }
 
   await prompts({
     type: 'invisible',
